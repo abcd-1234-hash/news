@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newspaper Layout</title>
+  <style>
+
+
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and overall page styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main content area */
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Headline section */
+.headline {
+  grid-column: span 2;
+}
+
+.headline h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Articles section */
+.articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.articles article {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.articles h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>The Daily News</h1>
+    <p>Bringing you the latest updates</p>
+  </header>
+  <main>
+    <section class="headline">
+      <h2>CLIMATE CHANGE</h2>
+      <p>TEMPERATURES AND WHEATHER PATTERNS</p>
+    </section>
+    <section class="articles">
+      <article>
+        <h3>The Rising water</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non sapien laculis est sollicitudin fermentum. Pellentesque vitae leo volutpat, elementum risus sed, scelerisque turpis. Vivamus molestie in nisi a mollis. Etiam vel ex porttitor, scelerisque lectus ac, Interdum Ipsum. in est Nulla fringilla cursus sodales. Curabitur Curabitur blandit aliquam diam, nec dictum tellus ultricies vitae Donec vitae pretium tortor. Integer aliquet, nibh a faucibus molestie, quam dolor hendrerit augue, sed faucibus lectus turpis id dui. Suspendisse libero velit, dapibus id tellus a, hendrerit molestie nisl. Donec nunc vitae nisi Vivamus elementum vestibulum ipsum, sed faucibus elit</p>
+      </article>
+      <article>
+        <h3>An overflow of water</h3>
+        <p>
+
+fermentum Lorem ipsum dolor sit amet, ligula. consectetur adipiscing elit Morbi non sapien iaculis est sollicitudin Pellentesque vitae leo volutpat, elementum risus sed, scelerisque turpis. Vivamus molestie in nisi a mollis. Etiam vel ex porttitor, scelerisque lectus ac, interdum ipsum Nulla fringilla cursus sodales. ligula. est Curabitur in Curabitur blandit aliquam diam, nec dictum.
+
+sollicitudin Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non sapien iaculis est fermentum. Pellentesque vitae leo volutpat. sed. elementum risus scelerisque turpis. Vivamus molestie in nisi a mollis. Etiam vel ex porttitor, scelerisque lectus ac, interdum ipsum. Nulla fringilla cursus sodales. Curabitur in est ligula Curabitur blandit aliquam diam, nec dictum.</p>
+      </article>
+      <!-- Additional articles as needed -->
+    </section>
+    <aside class="sidebar"><b>
+      <h3><img src="C:\Users\Imran Khan\Downloads\WhatsApp Image 2025-04-11 at 14.01.26.jpeg" height="150px" width="100%"></img></h3>
+      <p>The water began to rise, a slow, persistent crawl that swallowed the streets of Mumbai, once vibrant with bustling life, now eerily silent under a shroud of salt spray and churning brown. The tide, swollen by a storm unlike any the city had ever known, didn't just encroach; it marched, each wave a relentless step forward, reclaiming what it had once given.</p>
+<h3><img src="C:\Users\Imran Khan\Downloads\WhatsApp Image 2025-04-11 at 14.07.54.jpeg" height="150px" width="100%"></img></h3>
+<p>
+The rain, a persistent, relentless curtain, had fallen for days, saturating the land and swelling the Mumbai rivers. The city, usually a vibrant pulse of life, now seemed to hold its breath, as the tide of water steadily crept upwards, swallowing streets and homes. 
+
+</p>
+    </aside>
+  </main>
+  <footer>
+    <p>&copy; 2025 The Daily News</p>
+  </footer>
+</body>
+</html>
